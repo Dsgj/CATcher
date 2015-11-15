@@ -1,92 +1,6 @@
 <?php
 include 'header.php';
 ?>
-<!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php">Start Bootstrap</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="html/about.php">About</a>
-                    </li>
-                    <li>
-                        <a href="html/services.php">Services</a>
-                    </li>
-                    <li>
-                        <a href="html/contact.php">Contact</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="html/portfolio-1-col.php">1 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="html/portfolio-2-col.php">2 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="html/portfolio-3-col.php">3 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="html/portfolio-4-col.php">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="html/portfolio-item.php">Single Portfolio Item</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="html/blog-home-1.php">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="html/blog-home-2.php">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="html/blog-post.php">Blog Post</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="html/full-width.php">Full Width Page</a>
-                            </li>
-                            <li class="active">
-                                <a href="sidebar.php">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="html/faq.php">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="html/404.php">404</a>
-                            </li>
-                            <li>
-                                <a href="html/pricing.php">Pricing Table</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
     <!-- Page Content -->
     <div class="container">
 
@@ -111,22 +25,22 @@ include 'header.php';
             <div class="col-md-3">
                 <div class="list-group">
                     <a href="index.php" class="list-group-item">Home</a>
-                    <a href="html/about.php" class="list-group-item">About</a>
-                    <a href="html/services.php" class="list-group-item">Services</a>
-                    <a href="html/contact.php" class="list-group-item">Contact</a>
-                    <a href="html/portfolio-1-col.php" class="list-group-item">1 Column Portfolio</a>
-                    <a href="html/portfolio-2-col.php" class="list-group-item">2 Column Portfolio</a>
-                    <a href="html/portfolio-3-col.php" class="list-group-item">3 Column Portfolio</a>
-                    <a href="html/portfolio-4-col.php" class="list-group-item">4 Column Portfolio</a>
-                    <a href="html/portfolio-item.php" class="list-group-item">Single Portfolio Item</a>
-                    <a href="html/blog-home-1.php" class="list-group-item">Blog Home 1</a>
-                    <a href="html/blog-home-2.php" class="list-group-item">Blog Home 2</a>
-                    <a href="html/blog-post.php" class="list-group-item">Blog Post</a>
-                    <a href="html/full-width.php" class="list-group-item">Full Width Page</a>
+                    <a href="about.php" class="list-group-item">About</a>
+                    <a href="services.php" class="list-group-item">Services</a>
+                    <a href="contact.php" class="list-group-item">Contact</a>
+                    <a href="portfolio-1-col.php" class="list-group-item">1 Column Portfolio</a>
+                    <a href="portfolio-2-col.php" class="list-group-item">2 Column Portfolio</a>
+                    <a href="portfolio-3-col.php" class="list-group-item">3 Column Portfolio</a>
+                    <a href="portfolio-4-col.php" class="list-group-item">4 Column Portfolio</a>
+                    <a href="portfolio-item.php" class="list-group-item">Single Portfolio Item</a>
+                    <a href="blog-home-1.php" class="list-group-item">Blog Home 1</a>
+                    <a href="blog-home-2.php" class="list-group-item">Blog Home 2</a>
+                    <a href="blog-post.php" class="list-group-item">Blog Post</a>
+                    <a href="full-width.php" class="list-group-item">Full Width Page</a>
                     <a href="sidebar.php" class="list-group-item active">Sidebar Page</a>
-                    <a href="html/faq.php" class="list-group-item">FAQ</a>
-                    <a href="html/404.php" class="list-group-item">404</a>
-                    <a href="html/pricing.php" class="list-group-item">Pricing Table</a>
+                    <a href="faq.php" class="list-group-item">FAQ</a>
+                    <a href="404.php" class="list-group-item">404</a>
+                    <a href="pricing.php" class="list-group-item">Pricing Table</a>
                 </div>
             </div>
             <!-- Content Column -->
