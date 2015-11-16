@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Leo Ozolins-Carlson & Jesper Gladh">
 
     <title>CATcher - Your local cat locator</title>
     <!-- Bootstrap Core CSS -->
@@ -67,8 +67,8 @@
                 </li>
                 <li>
                     <a href="contact.php">
-                        <span title="Contact">
-                           <i class="fa fa-2x fa-envelope-o"></i>
+                        <span title="Cats">
+                           <i class="fa fa-2x fa-paw"></i>
                         </span>
                     </a>
                 </li>
@@ -115,8 +115,7 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li>
-                            <a href="blog-home-1.php"
+                        <li><a href="blog-home-1.php">
                                Blog Home 1
                             </a>
                         </li>
