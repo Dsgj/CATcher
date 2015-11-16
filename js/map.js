@@ -5,7 +5,7 @@
 var map;
 function initMap() {
     map = new google.maps.Map(document.getElementById('map-canvas-0'), {
-        center: {lat: -34.397, lng: 150.644},
+        center: {lat: 65.6177455, lng: 22.137957}, //The start coordinates is the classroom where we have our lectures!
         zoom: 16
     });
     var infoWindow = new google.maps.InfoWindow({map: map});

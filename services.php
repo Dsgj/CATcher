@@ -38,7 +38,7 @@ include 'header.php';
                     <div class="panel-heading">
                         <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-rebel fa-stack-1x fa-inverse fa-spin"></i>
                         </span>
                     </div>
                     <div class="panel-body">
@@ -53,7 +53,7 @@ include 'header.php';
                     <div class="panel-heading">
                         <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-empire fa-stack-1x fa-inverse fa-spin"></i>
                         </span>
                     </div>
                     <div class="panel-body">
@@ -264,14 +264,6 @@ include 'header.php';
 
         <hr>
 
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
         <?php
         include 'footer.php';
         ?>
