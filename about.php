@@ -22,12 +22,9 @@ include 'header.php';
         <!-- Intro Content -->
         <div class="row">
             <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+               <iframe src="https://docs.google.com/presentation/d/11TwO2rzVcU0Cf8nlgVvWjjC5q4YiJZMdHpiyYSP2FSc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
-            <div class="col-md-6">
-                <h2>About CATher</h2>
-                <p>Text about the purpose of CATcher</p>
-            </div>
+          
         </div>
         <!-- /.row -->
 
