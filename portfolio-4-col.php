@@ -128,6 +128,6 @@ include 'header.php';
 
         <hr>
 
-    <?php
-    include 'footer.php';
-    ?>
+<?php
+include 'footer.php';
+?>

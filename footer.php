@@ -24,9 +24,9 @@
 <script>
     $('.carousel').carousel({
         interval: 10000 //changes the speed
-    }).bind('slide', function() {
+    }).bind('slide', function () {
         google.maps.event.trigger(map, 'resize');
-        map.setZoom( map.getZoom() );
+        map.setZoom(map.getZoom());
     });
 </script>
 <!-- Contact Form JavaScript -->

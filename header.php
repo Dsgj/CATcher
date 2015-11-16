@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgqYI64QpxRrlSK0qOE2vg4lQVDawI4ZY&signed_in=true&callback=initMap" async defer></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgqYI64QpxRrlSK0qOE2vg4lQVDawI4ZY&signed_in=true&callback=initMap"
+        async defer></script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +39,8 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -116,7 +119,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="blog-home-1.php">
-                               Blog Home 1
+                                Blog Home 1
                             </a>
                         </li>
                         <li>

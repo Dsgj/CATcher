@@ -25,7 +25,9 @@ include 'header.php';
                 <div class="jumbotron">
                     <h1><span class="error-404">404</span>
                     </h1>
-                    <p>The page you're looking for could not be found. Here are some helpful links to get you back on track:</p>
+
+                    <p>The page you're looking for could not be found. Here are some helpful links to get you back on
+                        track:</p>
                     <ul>
                         <li>
                             <a href="index.php">Home</a>

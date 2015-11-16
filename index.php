@@ -19,13 +19,15 @@ include 'header.php';
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://gallery.hd.org/_exhibits/natural-science/_more2002/_more09/cat-striped-domestic-shorthair-cut-ear-mono-5-BG.jpg');"></div>
+                <div class="fill"
+                     style="background-image:url('http://gallery.hd.org/_exhibits/natural-science/_more2002/_more09/cat-striped-domestic-shorthair-cut-ear-mono-5-BG.jpg');"></div>
                 <div class="carousel-caption">
                     <h2>CATcher</h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://mirror-us-ga1.gallery.hd.org/_exhibits/natural-science/_more2002/_more09/cat-striped-domestic-shorthair-cut-ear-mono-2-BG.jpg');"></div>
+                <div class="fill"
+                     style="background-image:url('http://mirror-us-ga1.gallery.hd.org/_exhibits/natural-science/_more2002/_more09/cat-striped-domestic-shorthair-cut-ear-mono-2-BG.jpg');"></div>
                 <div class="carousel-caption">
                     <h2>Caption 2</h2>
                 </div>
@@ -57,7 +59,9 @@ include 'header.php';
                         <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla
+                            aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus
+                            eveniet incidunt dicta nostrum quod?</p>
                         <a href="#" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
@@ -68,7 +72,9 @@ include 'header.php';
                         <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla
+                            aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus
+                            eveniet incidunt dicta nostrum quod?</p>
                         <a href="#" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
@@ -79,7 +85,9 @@ include 'header.php';
                         <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla
+                            aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus
+                            eveniet incidunt dicta nostrum quod?</p>
                         <a href="#" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
@@ -141,7 +149,9 @@ include 'header.php';
                     <li>Unstyled page elements for easy customization</li>
                     <li>17 HTML pages</li>
                 </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id
+                    reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia
+                    dolorum ducimus unde.</p>
             </div>
             <div class="col-md-6">
                 <img class="img-responsive" src="http://placehold.it/700x450" alt="">
@@ -155,7 +165,8 @@ include 'header.php';
         <div class="well">
             <div class="row">
                 <div class="col-md-8">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum
+                        deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
                 </div>
                 <div class="col-md-4">
                     <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>

@@ -1,7 +1,7 @@
 <?php
 include 'header.php';
 ?>
-<!-- Page Content -->
+    <!-- Page Content -->
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
@@ -25,19 +25,25 @@ include 'header.php';
                 <a href="portfolio-item.php">
                     <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
                 </a>
+
                 <h3>
                     <a href="portfolio-item.php">Project One</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                    pellentesque urna varius vitae.</p>
             </div>
             <div class="col-md-6 img-portfolio">
                 <a href="portfolio-item.php">
                     <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
                 </a>
+
                 <h3>
                     <a href="portfolio-item.php">Project Two</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                    pellentesque urna varius vitae.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -48,19 +54,25 @@ include 'header.php';
                 <a href="portfolio-item.php">
                     <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
                 </a>
+
                 <h3>
                     <a href="portfolio-item.php">Project Three</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                    pellentesque urna varius vitae.</p>
             </div>
             <div class="col-md-6 img-portfolio">
                 <a href="portfolio-item.php">
                     <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
                 </a>
+
                 <h3>
                     <a href="portfolio-item.php">Project Four</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                    pellentesque urna varius vitae.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -71,19 +83,25 @@ include 'header.php';
                 <a href="portfolio-item.php">
                     <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
                 </a>
+
                 <h3>
                     <a href="portfolio-item.php">Project Five</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                    pellentesque urna varius vitae.</p>
             </div>
             <div class="col-md-6 img-portfolio">
                 <a href="portfolio-item.php">
                     <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
                 </a>
+
                 <h3>
                     <a href="portfolio-item.php">Project Six</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                    pellentesque urna varius vitae.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -122,6 +140,6 @@ include 'header.php';
 
         <hr>
 
-        <?php
-        include 'footer.php';
-        ?>
+<?php
+include 'footer.php';
+?>

@@ -46,12 +46,15 @@ include 'header.php';
             <!-- Content Column -->
             <div class="col-md-9">
                 <h2>Section Heading</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis
+                    veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium,
+                    voluptate dolores iure maxime ducimus fugit.</p>
             </div>
         </div>
         <!-- /.row -->
 
         <hr>
-        <?php
-        include 'footer.php';
-        ?>
+<?php
+include 'footer.php';
+?>

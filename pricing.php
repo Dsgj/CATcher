@@ -1,7 +1,7 @@
 <?php
 include 'header.php';
 ?>
-<!-- Page Content -->
+    <!-- Page Content -->
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
@@ -86,6 +86,6 @@ include 'header.php';
 
         <hr>
 
-        <?php
-        include 'footer.php';
-        ?>
+<?php
+include 'footer.php';
+?>
