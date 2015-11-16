@@ -7,7 +7,7 @@
             $copyYear = 2015; // Set your website start date
             $curYear = date('Y'); // Keeps the second year updated
             echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
-            ?> CATcher Inc. <i class="fa fa-pied-piper-alt fa-lg"></i>
+            ?> CATcher Inc. <i class="fa fa-pied-piper-alt fa-2x"></i>
         </div>
     </div>
 </footer>

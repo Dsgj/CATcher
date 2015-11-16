@@ -44,7 +44,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.php">
-                <i class="fa fa-home fa-lg"></i>
+                <i class="fa fa-home fa-2x"></i>
                 <span title="Home"></span>
             </a>
         </div>
@@ -61,7 +61,7 @@
                 <li>
                     <a href="services.php">
                         <span title="Services">
-                           <i class="fa fa-2x fa-truck"></i>
+                           <i class="fa fa-2x fa-cogs"></i>
                         </span>
                     </a>
                 </li>
@@ -73,7 +73,7 @@
                     </a>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
                         <span title="Portfolio">
                             <i class="fa fa-2x fa-briefcase"></i>
                         </span>
@@ -108,7 +108,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
                         <span title="Blog">
                            <i class="fa fa-2x fa-pencil"></i>
                         </span>
@@ -132,9 +132,11 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown active">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        Other Pages
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        <span title="Blog">
+                           <i class="fa fa-2x fa-pencil"></i>
+                        </span>
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
@@ -153,7 +155,7 @@
                                 FAQ
                             </a>
                         </li>
-                        <li class="active">
+                        <li>
                             <a href="404.php">
                                 404
                             </a>
@@ -164,8 +166,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.hbo.com/silicon-valley">
-                                <i class="fa fa-pied-piper-alt fa-lg"></i>
+                            <a href="http://www.piedpiper.com/">
+                                <i class="fa fa-pied-piper fa-2x"></i>
                             </a>
                         </li>
                     </ul>
