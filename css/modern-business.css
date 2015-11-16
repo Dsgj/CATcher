@@ -9,6 +9,7 @@
 html,
 body {
     height: 100%;
+    background-color: #000000;
 }
 
 body {
@@ -75,14 +76,14 @@ footer {
 
 /* Responsive Styles */
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
     .customer-img,
     .img-related {
         margin-bottom: 30px;
     }
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
     .img-portfolio {
         margin-bottom: 15px;
     }

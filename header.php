@@ -16,8 +16,11 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- Modern Business custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -55,6 +58,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
+                    <a href="cats.php">
+                        <span title="Cats">
+                           <i class="fa fa-2x fa-paw"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
                     <a href="about.php">
                         <span title="About">
                             <i class="fa fa-2x fa-info"></i>
@@ -68,13 +78,8 @@
                         </span>
                     </a>
                 </li>
-                <li>
-                    <a href="contact.php">
-                        <span title="Cats">
-                           <i class="fa fa-2x fa-paw"></i>
-                        </span>
-                    </a>
-                </li>
+
+                <!--
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown">
                         <span title="Portfolio">
@@ -110,6 +115,8 @@
                         </li>
                     </ul>
                 </li>
+                -->
+                <!--
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown">
                         <span title="Blog">
@@ -134,6 +141,7 @@
                         </li>
                     </ul>
                 </li>
+                -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown">
                         <span title="Blog">
