@@ -22,8 +22,10 @@ include 'header.php';
         <!-- Intro Content -->
         <div class="row">
             <div class="col-md-6">
-               <iframe src="https://docs.google.com/presentation/d/11TwO2rzVcU0Cf8nlgVvWjjC5q4YiJZMdHpiyYSP2FSc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                <div class="embed-responsive embed-responsive-16by9">
+               <iframe src="https://docs.google.com/presentation/d/11TwO2rzVcU0Cf8nlgVvWjjC5q4YiJZMdHpiyYSP2FSc/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
+                </div>
           
         </div>
         <!-- /.row -->
@@ -35,7 +37,7 @@ include 'header.php';
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="http://oi67.tinypic.com/344umfs.jpg" alt="">
                     <div class="caption">
                         <h3>Jesper Gladh<br>
                             <small>Developer</small>
@@ -54,7 +56,7 @@ include 'header.php';
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="http://oi64.tinypic.com/wjxvub.jpg" alt="">
                     <div class="caption">
                         <h3>Leo Ozolins-Carlson<br>
                             <small>Developer</small>
