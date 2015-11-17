@@ -53,7 +53,7 @@ include 'header.php';
                         </li>
                         <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-2x fa-instagram"></i></a>
+                        <li><a href="https://www.instagram.com/jegladh/"><i class="fa fa-2x fa-instagram"></i></a>
                         </li>
                     </ul>
                 </div>
