@@ -1,14 +1,10 @@
 <?php
-$servername = "130.240.170.52";
 $username = "root";
 $password = "root";
-$dbname = "catcher";
+$hostname = "localhost"; 
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
+//connection to the database
+$dbhandle = mysql_connect($hostname, $username, $password) 
+  or die("Unable to connect to MySQL");
+echo "Connected to MySQL<br>";
 ?>
-
