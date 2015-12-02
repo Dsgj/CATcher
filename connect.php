@@ -1,8 +1,13 @@
 <?php
-$link = mysql_connect('localhost', 'root', 'root');
-if (!$link) {
-    die('Could not connect: ' . mysql_error());
-}
-echo 'Connected successfully';
-mysql_close($link);
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$dbname = "catcher";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
 ?>
