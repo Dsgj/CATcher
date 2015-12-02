@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+$servername = "130.240.170.52";
 $username = "root";
 $password = "root";
 $dbname = "catcher";
