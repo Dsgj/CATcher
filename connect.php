@@ -1,7 +1,7 @@
 
 
 <?php
-phpinfo();
+#phpinfo();
 ini_set('display_errors', 1);
 // we connect to example.com and port 3306
 $link = mysql_connect('cloud-52.skelabb.ltu.se:3306', 'root', 'root');
