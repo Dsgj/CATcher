@@ -1,22 +1,16 @@
-
-
 <?php
-#phpinfo();
-ini_set('display_errors', 1);
-// we connect to example.com and port 3306
-$link = mysql_connect('cloud-52.skelabb.ltu.se:3306', 'root', 'root');
-if (!$link) {
-    die('Could not connect: ' . mysql_error());
-}
-echo 'Connected successfully';
-mysql_close($link);
+$servername = "localhost";
+$username = "root";
+$password = "root";
 
-// we connect to localhost at port 3306
-$link = mysql_connect('127.0.0.1:3306', 'root', 'root');
-if (!$link) {
-    die('Could not connect: ' . mysql_error());
-}
-echo 'Connected successfully';
-mysql_close($link);
-
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=catcher", $username, $password);
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "Connected successfully"; 
+    }
+catch(PDOException $e)
+    {
+    echo "Connection failed: " . $e->getMessage();
+    }
 ?>
