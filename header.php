@@ -38,10 +38,22 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
     <![endif]-->
 
 </head>
 <body>
+<script src="js/facebook.js"></script>
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=177711119247242";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<div id="status"></div>
 <div id="map"></div>
 <header>
 </header>
@@ -88,6 +100,12 @@
                     </a>
                 </li>
                 -->
+                <li>
+                    <div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false"
+                         data-auto-logout-link="true">
+                    </div>
+
+                </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown">
                         <span title="Blog">
