@@ -33,6 +33,8 @@ function checkLoginState() {
 window.fbAsyncInit = function() {
     FB.init({
         appId      : '177711119247242',
+        cookie     : true,  // enable cookies to allow the server to access
+        // the session
         xfbml      : true,
         version    : 'v2.5'
     });
