@@ -1,6 +1,31 @@
 <?php
 include 'header.php';
 ?>
+
+
+    <script>
+        var autocomplete;
+        function initAutocomplete() {
+            // Create the autocomplete object, restricting the search to geographical
+            // location types.
+            autocomplete = new google.maps.places.Autocomplete(
+                /** @type {!HTMLInputElement} */(document.getElementById('address')),
+                {types: ['geocode']});
+
+            // When the user selects an address from the dropdown, populate the address
+            // fields in the form.
+            autocomplete.addListener('place_changed', fillInAddress);
+        }
+        function fillInAddress() {
+            var place = autocomplete.getPlace();
+            document.getElementById("lat").value = place.geometry.location.lat();
+            document.getElementById("lng").value = place.geometry.location.lng();
+        }
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgqYI64QpxRrlSK0qOE2vg4lQVDawI4ZY&signed_in=true&libraries=places&callback=initAutocomplete"
+        async defer>
+    </script>
     <!-- Page Content -->
     <div class="container">
 
@@ -22,95 +47,89 @@ include 'header.php';
         <!-- Content Row -->
         <div class="row">
             <!-- Map Column -->
-            <div class="col-md-8">
+            <div class="col-lg-12">
                 <!-- Embedded Google Map -->
                 <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
 
                         src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
             </div>
-            <!-- Contact Details Column -->
-            <div class="col-md-4">
-                <h3>Contact Details</h3>
+            <!-- Contact Form -->
+            <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Register your cat</h3>
 
-                <p>
-                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
-                </p>
-
-                <p><i class="fa fa-phone"></i>
-                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
-
-                <p><i class="fa fa-envelope-o"></i>
-                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
-                </p>
-
-                <p><i class="fa fa-clock-o"></i>
-                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
-                <ul class="list-unstyled list-inline list-social-icons">
-                    <li>
-                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Contact Form -->
-        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-        <div class="row">
-            <div class="col-md-8">
-                <h3>Register your cat</h3>
-
-                <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Full Name:</label>
-                            <input type="text" class="form-control" id="name" required
-                                   data-validation-required-message="Please enter your name.">
-
-                            <p class="help-block"></p>
+                    <form action="cloud-52" name="sentMessage" id="contactForm" method="get"
+                          novalidate>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Email Address:</label>
+                                <input type="email" class="form-control" id="email" required
+                                       data-validation-required-message="Please enter your email address.">
+                            </div>
                         </div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Phone Number:</label>
-                            <input type="tel" class="form-control" id="phone" required
-                                   data-validation-required-message="Please enter your phone number.">
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Cat ID-number:</label>
+                                <input type="text" class="form-control" name="ident" required
+                                       data-validation-required-message="Please enter your cat's identification number."
+                                       placeholder="Enter the ID-number">
+
+                                <p class="help-block"></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Email Address:</label>
-                            <input type="email" class="form-control" id="email" required
-                                   data-validation-required-message="Please enter your email address.">
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Cat name:</label>
+                                <input type="text" class="form-control" name="name" required
+                                       data-validation-required-message="Please enter your cat's name."
+                                       placeholder="Enter the name">
+                            </div>
                         </div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Message:</label>
-                            <textarea rows="10" cols="100" class="form-control" id="message" required
+                        <div>
+                            <label>Sex:</label><br>
+                            <label class="radio-inline"><input type="radio" name="optradio">Male</label>
+                            <label class="radio-inline"><input type="radio" name="optradio">Female</label>
+                        </div>
+
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Breed:</label>
+                                <input type="text" class="form-control" name="breed" required
+                                       data-validation-required-message="Please enter your cat's breed."
+                                       placeholder="Enter the breed">
+                            </div>
+                        </div>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Address:</label>
+                                <input type="text" class="form-control" name="address" id="address" required
+                                       data-validation-required-message="Please enter your address"
+                                       placeholder="Enter your address">
+
+                                <input type="hidden" name="lat" id="lat">
+                                <input type="hidden" name="lng" id="lng">
+                            </div>
+                        </div>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Other information:</label>
+                            <textarea rows="10" cols="100" class="form-control" name="message" required
                                       data-validation-required-message="Please enter your message" maxlength="999"
-                                      style="resize:none"></textarea>
+                                      style="resize:none">
+                            </textarea>
+                            </div>
                         </div>
-                    </div>
-                    <div id="success"></div>
-                    <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
+                        <div id="success"></div>
+                        <!-- For success/fail messages -->
+                        <button type="submit" class="btn btn-primary">Send information</button>
+                    </form>
+                </div>
+
             </div>
+            <!-- /.row -->
 
-        </div>
-        <!-- /.row -->
-
-        <hr>
+            <hr>
 
 <?php
 include 'footer.php';

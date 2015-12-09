@@ -2,10 +2,6 @@
 <html lang="en">
 
 <head>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgqYI64QpxRrlSK0qOE2vg4lQVDawI4ZY&signed_in=true&callback=initMap"
-        async defer>
-    </script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -83,6 +79,7 @@
                         </span>
                     </a>
                 </li>
+                <!--
                 <li>
                     <a href="services.php">
                         <span title="Services">
@@ -90,69 +87,6 @@
                         </span>
                     </a>
                 </li>
-
-                <!--
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown">
-                        <span title="Portfolio">
-                            <i class="fa fa-2x fa-briefcase"></i>
-                        </span>
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="portfolio-1-col.php">
-                                1 Column Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="portfolio-2-col.php">
-                                2 Column Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="portfolio-3-col.php">
-                                3 Column Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="portfolio-4-col.php">
-                                4 Column Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="portfolio-item.php">
-                                Single Portfolio Item
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                -->
-                <!--
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown">
-                        <span title="Blog">
-                           <i class="fa fa-2x fa-pencil"></i>
-                        </span>
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="blog-home-1.php">
-                                Blog Home 1
-                            </a>
-                        </li>
-                        <li>
-                            <a href="blog-home-2.php">
-                                Blog Home 2
-                            </a>
-                        </li>
-                        <li>
-                            <a href="blog-post.php">
-                                Blog Post
-                            </a>
-                        </li>
-                    </ul>
-                </li>
                 -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown">
@@ -162,6 +96,7 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
+                        <!--
                         <li>
                             <a href="full-width.php">
                                 Full Width Page
@@ -172,21 +107,25 @@
                                 Sidebar Page
                             </a>
                         </li>
+                        -->
                         <li>
                             <a href="faq.php">
                                 FAQ
                             </a>
                         </li>
+                        <!--
                         <li>
                             <a href="404.php">
                                 404
                             </a>
                         </li>
+
                         <li>
                             <a href="pricing.php">
                                 Pricing Table
                             </a>
                         </li>
+                        -->
                         <li>
                             <a href="http://www.piedpiper.com/">
                                 <i class="fa fa-pied-piper fa-2x"></i>
