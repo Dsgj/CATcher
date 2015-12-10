@@ -60,7 +60,7 @@ include 'header.php';
                 <div class="col-md-8">
                     <h3>Register your cat</h3>
 
-                    <form action="cloud-52" name="sentMessage" id="contactForm" method="get"
+                    <form action="cats.php" name="sentMessage" id="contactForm" method="post"
                           novalidate>
                         <div class="control-group form-group">
                             <div class="controls">
