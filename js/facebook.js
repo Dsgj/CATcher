@@ -1,4 +1,4 @@
-// This is called with the results from from FB.getLoginStatus().
+0// This is called with the results from from FB.getLoginStatus().
 function statusChangeCallback(response) {
     console.log('statusChangeCallback');
     console.log(response);
@@ -30,20 +30,23 @@ function checkLoginState() {
     });
 }
 
-window.fbAsyncInit = function() {
+window.fbAsyncInit = function () {
     FB.init({
-        appId      : '177711119247242',
-        cookie     : true,  // enable cookies to allow the server to access
-        // the session
-        xfbml      : true,
-        version    : 'v2.5'
+        appId: '177711119247242',
+        cookie: true,   // enable cookies to allow the server to access
+                        // the session
+        xfbml: true,
+        version: 'v2.5'
     });
 };
 
-(function(d, s, id){
+(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) {return;}
-    js = d.createElement(s); js.id = id;
+    if (d.getElementById(id)) {
+        return;
+    }
+    js = d.createElement(s);
+    js.id = id;
     js.src = "//connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));

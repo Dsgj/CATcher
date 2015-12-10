@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php
+include 'connect.php';
+?>
 <head>
 
     <meta charset="utf-8">
@@ -93,7 +95,7 @@
                 </li>
                 -->
                 <li>
-                    <div class="fb-login-button" data-scope="public_profile,email" data-max-rows="1" data-size="large" data-show-faces="false"
+                    <div class="fb-login-button" data-scope="public_profile,email" data-max-rows="0" data-size="large" data-show-faces="false"
                          data-auto-logout-link="true">
                     </div>
 
