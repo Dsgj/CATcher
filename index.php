@@ -1,6 +1,11 @@
 <?php
 include 'header.php';
 ?>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgqYI64QpxRrlSK0qOE2vg4lQVDawI4ZY&signed_in=true&libraries=places&callback=initMap"
+        async defer>
+    </script>
     <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
@@ -56,11 +61,11 @@ include 'header.php';
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> Future feature</h4>
+                        <h4><i class="fa fa-fw fa-paw"></i> Register a cat</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Text</p>
-                        <a href="#" class="btn btn-default"> Future feature</a>
+                        <p>Register your cat with some easy steps!</p>
+                        <a href="cats.php" class="btn btn-default">Go to page</a>
                     </div>
                 </div>
             </div>
