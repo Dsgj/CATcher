@@ -34,13 +34,5 @@ $sql = "
 		VALUES('" . $email_address . "','" . $ident . "','" . $name . "','" . $sex . "','" . $address . "','" . $info ."')
 	";
 
-$result = mysql_query( $sql );
-
-if ( $result ) {
-    return true;
-} else {
-    return false;
-}
-
-mysql_close();
+$conn->query($sql);
 ?>

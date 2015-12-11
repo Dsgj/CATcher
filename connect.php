@@ -1,9 +1,8 @@
 <?php
-
 $servername = "127.0.0.1";
 $username = "root";
 $password = "root";
-
+$conn = null;
 try {
     $conn = new PDO("mysql:host=$servername;dbname=catcher", $username, $password);
     // set the PDO error mode to exception

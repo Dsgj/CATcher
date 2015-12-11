@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe7964d-81fb-43ef-8572-3d937d94c1a6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/contact_me.php" afterPath="$PROJECT_DIR$/bin/contact_me.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connect.php" afterPath="$PROJECT_DIR$/connect.php" />
     </list>
     <ignored path="CATcher.iws" />
@@ -77,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connect.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="connect.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3272933">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -119,14 +120,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact_me.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contact_me.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/contact_me.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.69309175">
+              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding>
-                <marker date="1449772918084" expanded="true" signature="736:892" placeholder="INSERT INTO cats..." />
-                <marker date="1449772918084" expanded="true" signature="736:906" placeholder="INSERT INTO ${$database_table}..." />
+                <marker date="1449840984757" expanded="true" signature="736:892" placeholder="INSERT INTO cats..." />
+                <marker date="1449840984757" expanded="true" signature="736:906" placeholder="INSERT INTO ${$database_table}..." />
               </folding>
             </state>
           </provider>
@@ -156,7 +157,7 @@
         <entry file="file://$PROJECT_DIR$/js/contact_me.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+              <caret line="57" column="38" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="38" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -240,9 +241,9 @@
         <option value="$PROJECT_DIR$/js/facebook.js" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/cats.php" />
-        <option value="$PROJECT_DIR$/bin/contact_me.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/connect.php" />
+        <option value="$PROJECT_DIR$/bin/contact_me.php" />
       </list>
     </option>
   </component>
@@ -475,7 +476,7 @@
     <option name="totallyTimeSpent" value="3511000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22964509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -907,24 +908,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/contact_me.js">
+    <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/contact_me.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <marker date="1449772918084" expanded="true" signature="736:892" placeholder="INSERT INTO cats..." />
-            <marker date="1449772918084" expanded="true" signature="736:906" placeholder="INSERT INTO ${$database_table}..." />
-          </folding>
+        <state vertical-scroll-proportion="-26.153847">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -938,19 +926,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
+    <entry file="file://$PROJECT_DIR$/js/contact_me.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.153847">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3272933">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/contact_me.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69309175">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <marker date="1449840984757" expanded="true" signature="736:892" placeholder="INSERT INTO cats..." />
+            <marker date="1449840984757" expanded="true" signature="736:906" placeholder="INSERT INTO ${$database_table}..." />
+          </folding>
         </state>
       </provider>
     </entry>
