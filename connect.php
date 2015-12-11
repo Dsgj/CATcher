@@ -12,4 +12,8 @@ catch(PDOException $e)
 {
     echo "Connection failed: " . $e->getMessage();
 }
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> ea8d5ab555c2085660dc0484fb4f3ab6f388c788
