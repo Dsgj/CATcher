@@ -25,7 +25,7 @@ $(function() {
             var name = $("input#name").val(); // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             $.ajax({
-                url: "contact_me.php",
+                url: "form.php",
                 type: "POST",
                 data: {
                     email: email,
