@@ -60,8 +60,7 @@ include 'header.php';
                 <div class="col-md-8">
                     <h3>Register your cat</h3>
 
-                    <form action="cats.php" name="sentMessage" id="contactForm" method="post"
-                          novalidate>
+                    <form action="connect.php" name="CatReg" id="contactForm" method="post" novalidate>
                         <div class="control-group form-group">
                             <div class="controls">
                                 <label>Email Address:</label>
@@ -89,8 +88,8 @@ include 'header.php';
                         </div>
                         <div>
                             <label>Sex:</label><br>
-                            <label class="radio-inline"><input type="radio" name="optradio">Male</label>
-                            <label class="radio-inline"><input type="radio" name="optradio">Female</label>
+                            <label class="radio-inline"><input type="radio" value="male" name="optradio">Male</label>
+                            <label class="radio-inline"><input type="radio" value="female" name="optradio">Female</label>
                         </div>
 
                         <div class="control-group form-group">
