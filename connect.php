@@ -3,7 +3,6 @@ $servername = "127.0.0.1";
 $username = "root";
 $password = "root";
 $dbname = "catcher";
-$conn = null;
 
 $email_address = "leoozolinscarlson@gmail.com";
 $ident = "123123";
