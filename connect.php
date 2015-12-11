@@ -23,7 +23,7 @@ try {
 
     $sql = "
         INSERT INTO cats(email,ident,name,sex,breed,address,lat,lng,info)
-		VALUES('" . $email_address . "','" . $ident . "','" . $name . "','" . $sex . "','\" . $breed . \"','" . $address . "','\" . $lat . \"','\" . $lng . \"','" . $info . "')
+		VALUES('" . $email_address . "','" . $ident . "','" . $name . "','" . $sex . "','" . $breed . "','" . $address . "','" . $lat . "','" . $lng . "','" . $info . "')
 		";
 
     $conn->exec($sql);
