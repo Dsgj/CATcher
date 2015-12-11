@@ -71,7 +71,7 @@ include 'header.php';
                         <div class="control-group form-group">
                             <div class="controls">
                                 <label>Cat ID-number:</label>
-                                <input type="text" class="form-control" name="ident" required
+                                <input type="text" class="form-control" name="ident" id="ident" required
                                        data-validation-required-message="Please enter your cat's identification number."
                                        placeholder="Enter the ID-number">
 
@@ -81,21 +81,21 @@ include 'header.php';
                         <div class="control-group form-group">
                             <div class="controls">
                                 <label>Cat name:</label>
-                                <input type="text" class="form-control" name="name" required
+                                <input type="text" class="form-control" name="name" id="name"required
                                        data-validation-required-message="Please enter your cat's name."
                                        placeholder="Enter the name">
                             </div>
                         </div>
                         <div>
                             <label>Sex:</label><br>
-                            <label class="radio-inline"><input type="radio" value="male" name="sex">Male</label>
-                            <label class="radio-inline"><input type="radio" value="female" name="sex">Female</label>
+                            <label class="radio-inline"><input type="radio" value="male" id="sex" name="sex">Male</label>
+                            <label class="radio-inline"><input type="radio" value="female" id="sex" name="sex">Female</label>
                         </div>
 
                         <div class="control-group form-group">
                             <div class="controls">
                                 <label>Breed:</label>
-                                <input type="text" class="form-control" name="breed" required
+                                <input type="text" class="form-control" name="breed" id="breed" required
                                        data-validation-required-message="Please enter your cat's breed."
                                        placeholder="Enter the breed">
                             </div>
@@ -114,7 +114,7 @@ include 'header.php';
                         <div class="control-group form-group">
                             <div class="controls">
                                 <label>Other information:</label>
-                            <textarea rows="10" cols="100" class="form-control" name="message" required
+                            <textarea rows="10" cols="100" class="form-control" name="message" id="message" required
                                       data-validation-required-message="Please enter your message" maxlength="999"
                                       style="resize:none">
                             </textarea>
