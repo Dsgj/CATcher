@@ -60,11 +60,11 @@ include 'header.php';
                 <div class="col-md-8">
                     <h3>Register your cat</h3>
 
-                    <form action="connect.php" name="CatReg" id="contactForm" method="post" novalidate>
+                    <form action="form.php" name="CatReg" id="contactForm" method="post" novalidate>
                         <div class="control-group form-group">
                             <div class="controls">
                                 <label>Email Address:</label>
-                                <input type="email" class="form-control" id="email" required
+                                <input type="email" class="form-control" id="email" name="email" required
                                        data-validation-required-message="Please enter your email address.">
                             </div>
                         </div>

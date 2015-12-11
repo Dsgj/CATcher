@@ -11,6 +11,7 @@ $(function() {
             // Not decided if I need it yet
         },
         submitSuccess: function($form, event) {
+            /*
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var email = $("input#email").val();
@@ -65,6 +66,7 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
             })
+            */
         },
         filter: function() {
             return $(this).is(":visible");
