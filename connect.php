@@ -4,12 +4,15 @@ $username = "root";
 $password = "root";
 $dbname = "catcher";
 
-$email_address = "leoozolinscarlson@gmail.com";
-$ident = "123123";
-$name = "lucifer";
-$sex = "dumfreppe";
-$address = "inte hemma";
-$info = "lite text";
+$email_address = $_POST["email"];
+$ident = $_POST["ident"];
+$name = $_POST["name"];
+$sex = $_POST["sex"];
+$breed = $_POST["breed"];
+$address = $_POST["address"];
+$lat = $_POST["lat"];
+$lng = $_POST["lng"];
+$info = $_POST["info"];
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -19,8 +22,8 @@ try {
 
 
     $sql = "
-        INSERT INTO cats( email,idcats,name,sex,address,info)
-		VALUES('" . $email_address . "','" . $ident . "','" . $name . "','" . $sex . "','" . $address . "','" . $info . "')
+        INSERT INTO cats(email,ident,name,sex,breed,address,lat,lng,info)
+		VALUES('" . $email_address . "','" . $ident . "','" . $name . "','" . $sex . "','\" . $breed . \"','" . $address . "','\" . $lat . \"','\" . $lng . \"','" . $info . "')
 		";
 
     $conn->exec($sql);
