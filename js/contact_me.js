@@ -24,7 +24,7 @@ $(function() {
                 catName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "./bin/contact_me.php",
+                url: "./bin/connect.php",
                 type: "POST",
                 data: {
                     email: email,
