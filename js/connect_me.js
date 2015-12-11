@@ -11,7 +11,7 @@ $(function() {
             // Not decided if I need it yet
         },
         submitSuccess: function($form, event) {
-            /*
+
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var email = $("input#email").val();
@@ -22,13 +22,10 @@ $(function() {
             var lat = $("input#lat").val();
             var lng = $("input#lng").val();
             var info = $("textarea#info").val();
-            var catName = name; // For Success/Failure Message
+            var name = $("input#name").val(); // For Success/Failure Message
             // Check for white space in name for Success/Fail message
-            if (catName.indexOf(' ') >= 0) {
-                catName = name.split(' ').slice(0, -1).join(' ');
-            }
             $.ajax({
-                url: "./bin/connect.php",
+                url: "contact_me.php",
                 type: "POST",
                 data: {
                     email: email,
@@ -66,7 +63,6 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
             })
-            */
         },
         filter: function() {
             return $(this).is(":visible");

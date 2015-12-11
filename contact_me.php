@@ -17,5 +17,4 @@ $sql = "
 		";
 
 $conn->exec($sql);
-echo "New record created successfully";
 ?>
