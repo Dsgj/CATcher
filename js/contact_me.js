@@ -14,15 +14,15 @@ $(function() {
 
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
-            var email = $("input#email").val();
-            var ident = $("input#ident").val();
-            var sex = $("input#sex").val();
-            var breed = $("input#breed").val();
-            var address = $("input#address").val();
-            var lat = $("input#lat").val();
-            var lng = $("input#lng").val();
-            var info = $("textarea#info").val();
-            var name = $("input#name").val(); // For Success/Failure Message
+            var email = $("#email").val();
+            var ident = $("#ident").val();
+            var sex = $("#sex").val();
+            var breed = $("#breed").val();
+            var address = $("#address").val();
+            var lat = $("#lat").val();
+            var lng = $("#lng").val();
+            var info = $("#info").val();
+            var name = $("#name").val(); // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             $.ajax({
                 url: "form.php",
