@@ -104,10 +104,10 @@
       <file leaf-file-name="phpaqlajax_genxml.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/phpaqlajax_genxml.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82847536">
-              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.33293414">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
               <folding>
-                <marker date="1450089148488" expanded="true" signature="710:739" placeholder="SELECT * FRO..markers..." />
+                <marker date="1450089296714" expanded="true" signature="706:735" placeholder="SELECT * FRO..markers..." />
               </folding>
             </state>
           </provider>
@@ -879,10 +879,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/phpaqlajax_genxml.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82847536">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.33293414">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding>
-            <marker date="1450089148488" expanded="true" signature="710:739" placeholder="SELECT * FRO..markers..." />
+            <marker date="1450089296714" expanded="true" signature="706:735" placeholder="SELECT * FRO..markers..." />
           </folding>
         </state>
       </provider>
