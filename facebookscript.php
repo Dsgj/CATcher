@@ -3,7 +3,7 @@
 session_start();
  
 if (!empty($_SESSION)) {
-    header("Location: index.php");
+    header("Location: header.php");
 }
 mysql_connect('127.0.0.1', 'root', 'root');
 mysql_select_db('catcher');
