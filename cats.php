@@ -81,9 +81,9 @@ include 'header.php';
 
                         <div>
                             <label>Sex:</label><br>
-                            <label class="radio-inline"><input type="radio" value="male" id="sex"
+                            <label class="radio-inline"><input type="radio" value="ma" id="sex"
                                                                name="sex">Male</label>
-                            <label class="radio-inline"><input type="radio" value="female" id="sex"
+                            <label class="radio-inline"><input type="radio" value="fe" id="sex"
                                                                name="sex">Female</label>
                         </div>
 
