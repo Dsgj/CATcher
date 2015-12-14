@@ -92,6 +92,7 @@ include 'header.php';
             document.getElementById("lng").value = place.geometry.location.lng();
         }
     </script>
+
     <!-- Page Content -->
     <div class="container">
         <!-- Page Heading/Breadcrumbs -->
