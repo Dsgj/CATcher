@@ -1,5 +1,3 @@
-
-<script src="js/test.js"></script>
 <!-- Footer -->
 <footer>
     <div class="row">
