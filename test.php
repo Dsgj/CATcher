@@ -37,7 +37,7 @@
                         parseFloat(markers[i].getAttribute("lat")),
                         parseFloat(markers[i].getAttribute("lng")));
                     var html = "<b>" + name + "</b> <br/>" + address;
-                    var icon = customIcons[type] || {};
+                    var icon = customIcons[breed] || {};
                     var marker = new google.maps.Marker({
                         map: map,
                         position: point,
