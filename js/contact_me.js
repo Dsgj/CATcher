@@ -16,7 +16,7 @@ $(function() {
             // get values from FORM
             var email = $("#email").val();
             var ident = $("#ident").val();
-            var sex = $("#sex").val();
+            var sex = $("input[name=sex]:checked").val();
             var breed = $("#breed").val();
             var address = $("#address").val();
             var lat = $("#lat").val();
