@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe7964d-81fb-43ef-8572-3d937d94c1a6" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/phpaqlajax_genxml.php" afterPath="$PROJECT_DIR$/phpsqlajax_genxml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cats.php" afterPath="$PROJECT_DIR$/cats.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookscript.php" afterPath="$PROJECT_DIR$/facebookscript.php" />
     </list>
     <ignored path="CATcher.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5903614">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="-33.192307">
+              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding>
                 <element signature="e#2710#2861#0#HTML" expanded="true" />
                 <element signature="e#3081#3246#0#HTML" expanded="true" />
@@ -39,11 +38,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="facebookscript.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/facebookscript.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41928253">
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facebook.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/facebook.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="connect.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connect.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -52,54 +71,31 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.927273">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state vertical-scroll-proportion="2.3090909">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.672728">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/test.js">
+      <file leaf-file-name="facebook.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/facebook.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cats.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cats.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cats.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7091541">
+            <state vertical-scroll-proportion="-34.618183">
               <caret line="132" column="2" selection-start-line="132" selection-start-column="2" selection-end-line="132" selection-end-column="2" />
               <folding>
                 <element signature="e#58#912#0#HTML" expanded="false" />
                 <element signature="e#917#1107#0#HTML" expanded="false" />
-                <element signature="e#2220#6583#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -167,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/services.html" />
         <option value="$PROJECT_DIR$/html/sidebar.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/Maps.css" />
@@ -218,6 +213,7 @@
         <option value="$PROJECT_DIR$/connect.php" />
         <option value="$PROJECT_DIR$/phpaqlajax_genxml.php" />
         <option value="$PROJECT_DIR$/cats.php" />
+        <option value="$PROJECT_DIR$/facebookscript.php" />
       </list>
     </option>
   </component>
@@ -502,13 +498,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/blog-post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.038462">
-          <caret line="301" column="50" selection-start-line="33" selection-start-column="0" selection-end-line="301" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/faq.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-29.038462">
@@ -750,22 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/facebook.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facebook.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/contact_me.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4561404">
@@ -828,29 +801,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5903614">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#2710#2861#0#HTML" expanded="true" />
-            <element signature="e#3081#3246#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.927273">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -883,15 +837,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-33.192307">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <element signature="e#2710#2861#0#HTML" expanded="true" />
+            <element signature="e#3081#3246#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7091541">
+        <state vertical-scroll-proportion="-34.618183">
           <caret line="132" column="2" selection-start-line="132" selection-start-column="2" selection-end-line="132" selection-end-column="2" />
           <folding>
             <element signature="e#58#912#0#HTML" expanded="false" />
             <element signature="e#917#1107#0#HTML" expanded="false" />
-            <element signature="e#2220#6583#0#HTML" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3090909">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/facebook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebookscript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41928253">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
