@@ -42,7 +42,7 @@
     <![endif]-->
 
 </head>
-<body onload="load()">
+<body>
 <script src="js/facebook.js"></script>
 <div id="fb-root"></div>
 <div id="status"></div>
