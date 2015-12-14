@@ -47,7 +47,7 @@
         function load() {
             var map = new google.maps.Map(document.getElementById("map"), {
                 center: new google.maps.LatLng(65.6177455, 22.137957),
-                zoom: 13,
+                zoom: 10,
                 mapTypeId: 'roadmap'
             });
             var infoWindow = new google.maps.InfoWindow;
@@ -110,7 +110,6 @@
 <div id="fb-root"></div>
 <div id="status"></div>
 <div id="map"></div>
-<header>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -193,7 +192,7 @@
                 </ol>
             </div>
         </div>
-<div id="map" style="width: 100%; height: 400px"></div>
+<div id="map" style="width: 100%; height:600px"></div>
     <!-- Footer -->
     <footer>
         <div class="row">
