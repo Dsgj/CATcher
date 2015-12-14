@@ -24,7 +24,7 @@ if (!$db_selected) {
 }
 
 // Select all the rows in the markers table
-$query = "SELECT * FROM markers WHERE 1";
+$query = "SELECT * FROM cats WHERE 1";
 $result = mysql_query($query);
 if (!$result) {
     die('Invalid query: ' . mysql_error());
@@ -33,7 +33,7 @@ if (!$result) {
 header("Content-type: text/xml");
 
 // Start XML file, echo parent node
-echo '<markers>';
+echo '<cats>';
 
 // Iterate through the rows, printing XML nodes for each
 while ($row = @mysql_fetch_assoc($result)){
@@ -48,6 +48,6 @@ while ($row = @mysql_fetch_assoc($result)){
 }
 
 // End XML file
-echo '</markers>';
+echo '</cats>';
 
 ?>
