@@ -41,10 +41,9 @@ include 'header.php';
             <!-- Map Column -->
             <div class="col-lg-12">
                 <!-- Embedded Google Map -->
-                <div id="map" style="width: 100%; height: 300px"></div>
-                <!--<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                         src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=62.864643, 16.057620&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed">
-                </iframe>-->
+                </iframe>
             </div>
             <!-- Contact Form -->
             <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
@@ -81,10 +80,8 @@ include 'header.php';
 
                         <div>
                             <label>Sex:</label><br>
-                            <label class="radio-inline"><input type="radio" value="ma" id="sex"
-                                                               name="sex">Male</label>
-                            <label class="radio-inline"><input type="radio" value="fe" id="sex"
-                                                               name="sex">Female</label>
+                            <label class="radio-inline"><input type="radio" value="female" id="sex" name="sex">Female</label>
+                            <label class="radio-inline"><input type="radio" value="male" id="sex" name="sex">Male</label>
                         </div>
 
                         <div class="control-group form-group">
