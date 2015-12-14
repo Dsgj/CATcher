@@ -1,7 +1,8 @@
-<!DOCTYPE html >
-<head>
-    <title>PHP/MySQL & Google Maps Example</title>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXhtygUcKTapxhoirRVKtpn2qXiQBh8xM&signed_in=true&libraries=places&callback=initAutocomplete"
+<?php
+include 'connect.php';
+include 'header.php';
+?>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXhtygUcKTapxhoirRVKtpn2qXiQBh8xM&signed_in=true&libraries=places"
             async defer type="text/javascript"></script>
     <script type="text/javascript">
         var customIcons = {
@@ -72,11 +73,29 @@
         //]]>
 
     </script>
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Cats
+                    <small>Register your cat</small></h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.php">Home</a></li>
+                    <li class="active">Cats</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Map Column -->
+            <div class="col-lg-12">
+                <div id="map" style="width: 100%; height: 400px"></div>
+            </div>
+            <!-- Contact Form -->
+            <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+            <hr>
 
-</head>
-
-<body onload="load()">
-<div id="map" style="width: 100%; height: 400px"></div>
-</body>
-
-</html>
+<?php
+include 'footer.php';
+?>

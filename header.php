@@ -86,13 +86,6 @@
                     </a>
                 </li>
 
-                <li>
-                    <div class="fb-login-button" data-scope="public_profile,email" data-max-rows="0" data-size="large" data-show-faces="false"
-                         data-auto-logout-link="true">
-
-                    </div>
-                </li>
-
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown">
                         <span title="Blog">
@@ -101,6 +94,12 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
+                        <li>
+                            <div class="fb-login-button" data-scope="public_profile,email" data-max-rows="0" data-size="medium" data-show-faces="false"
+                                 data-auto-logout-link="true">
+
+                            </div>
+                        </li>
                         <li>
                             <a href="faq.php">
                                 FAQ
