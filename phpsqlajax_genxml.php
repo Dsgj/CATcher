@@ -1,7 +1,7 @@
 <?php
 require("phpsqlajax_dbinfo.php");
 
-function parseToXML($htmlStr)
+function htmlentities($htmlStr)
 {
     $xmlStr=str_replace('<','&lt;',$htmlStr);
     $xmlStr=str_replace('>','&gt;',$xmlStr);
@@ -39,10 +39,10 @@ echo '<cats>';
 while ($row = @mysql_fetch_assoc($result)){
     // ADD TO XML DOCUMENT NODE
     echo '<marker ';
-    echo 'name="' . parseToXML($row['name']) . '" ';
-    echo 'sex="' . parseToXML($row['sex']) . '" ';
+    echo 'name="' . htmlentities($row['name']) . '" ';
+    echo 'sex="' . htmlentities($row['sex']) . '" ';
     echo 'breed="' . $row['breed'] . '" ';
-    echo 'address="' . parseToXML($row['address']) . '" ';
+    echo 'address="' . htmlentities($row['address']) . '" ';
     echo 'lat="' . $row['lat'] . '" ';
     echo 'lng="' . $row['lng'] . '" ';
     echo '/>';
