@@ -65,7 +65,7 @@ include 'header.php';
             <div class="item active">
                 <div class="fill map" id="map-canvas-0"></div>
                 <div class="carousel-caption">
-                    <h2>Cats near you</h2>
+                    <h2>You are here!</h2>
                 </div>
             </div>
             <div class="item">
