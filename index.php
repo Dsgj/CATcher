@@ -77,7 +77,7 @@ include 'header.php';
             </div>
             <div class="item">
                 <div class="fill"
-                     style="background-image:url('http://mirror-us-ga1.gallery.hd.org/_exhibits/natural-science/_more2002/_more09/cat-striped-domestic-shorthair-cut-ear-mono-2-BG.jpg');"></div>
+                     style="background-image:url('http://www.vetprofessionals.com/catprofessional/images/home-cat.jpg');"></div>
                 <div class="carousel-caption">
                     <h2>Caption 2</h2>
                 </div>
