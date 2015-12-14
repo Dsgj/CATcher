@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe7964d-81fb-43ef-8572-3d937d94c1a6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connect.php" afterPath="$PROJECT_DIR$/connect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpaqlajax_genxml.php" afterPath="$PROJECT_DIR$/phpaqlajax_genxml.php" />
     </list>
     <ignored path="CATcher.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connect.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="connect.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17152466">
+            <state vertical-scroll-proportion="-5.8846154">
               <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
@@ -52,16 +52,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.927273">
               <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="natt.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/natt.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.490909">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -111,14 +101,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phpaqlajax_genxml.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="phpaqlajax_genxml.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/phpaqlajax_genxml.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.73077">
-              <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.82847536">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
               <folding>
-                <marker date="1450088793381" expanded="true" signature="573:602" placeholder="SELECT * FRO..markers..." />
+                <marker date="1450089148488" expanded="true" signature="710:739" placeholder="SELECT * FRO..markers..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phpsqlajax_dbinfo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpsqlajax_dbinfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -210,8 +210,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/cats.php" />
-        <option value="$PROJECT_DIR$/phpaqlajax_genxml.php" />
         <option value="$PROJECT_DIR$/connect.php" />
+        <option value="$PROJECT_DIR$/phpaqlajax_genxml.php" />
       </list>
     </option>
   </component>
@@ -780,14 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpsqlajax_dbinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.769231">
@@ -869,21 +861,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpaqlajax_genxml.php">
+    <entry file="file://$PROJECT_DIR$/connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.73077">
-          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
-          <folding>
-            <marker date="1450088793381" expanded="true" signature="573:602" placeholder="SELECT * FRO..markers..." />
-          </folding>
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connect.php">
+    <entry file="file://$PROJECT_DIR$/phpsqlajax_dbinfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17152466">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpaqlajax_genxml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82847536">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <marker date="1450089148488" expanded="true" signature="710:739" placeholder="SELECT * FRO..markers..." />
+          </folding>
         </state>
       </provider>
     </entry>
