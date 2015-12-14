@@ -109,7 +109,6 @@
 <script src="js/facebook.js"></script>
 <div id="fb-root"></div>
 <div id="status"></div>
-<div id="map"></div>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
