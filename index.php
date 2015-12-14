@@ -45,9 +45,10 @@ include 'header.php';
             'Error: Your browser doesn\'t support geolocation.');
     }
 </script>
-
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXhtygUcKTapxhoirRVKtpn2qXiQBh8xM&signed_in=true&libraries=places&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXhtygUcKTapxhoirRVKtpn2qXiQBh8xM&signed_in=true&libraries=places&callback=initAutocomplete"
+            async defer>
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXhtygUcKTapxhoirRVKtpn2qXiQBh8xM&signed_in=true&libraries=places&callback=initMap"
         async defer>
     </script>
     <!-- Header Carousel -->

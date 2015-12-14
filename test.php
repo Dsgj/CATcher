@@ -1,8 +1,8 @@
 <!DOCTYPE html >
 <head>
     <title>PHP/MySQL & Google Maps Example</title>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXhtygUcKTapxhoirRVKtpn2qXiQBh8xM"
-            type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXhtygUcKTapxhoirRVKtpn2qXiQBh8xM&signed_in=true&libraries=places&callback=initAutocomplete"
+            async defer></script>
     <script type="text/javascript">
         var customIcons = {
             male: {
