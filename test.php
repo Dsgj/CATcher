@@ -1,13 +1,9 @@
 <!DOCTYPE html >
 <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <title>PHP/MySQL & Google Maps Example</title>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXhtygUcKTapxhoirRVKtpn2qXiQBh8xM"
             type="text/javascript"></script>
     <script type="text/javascript">
-        //<![CDATA[
-
         var customIcons = {
             male: {
                 icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
@@ -25,19 +21,18 @@
             });
             var infoWindow = new google.maps.InfoWindow;
 
-// Change this depending on the name of your PHP file
             downloadUrl("phpsqlajax_genxml.php", function (data) {
                 var xml = data.responseXML;
                 var markers = xml.documentElement.getElementsByTagName("marker");
                 for (var i = 0; i < markers.length; i++) {
                     var name = markers[i].getAttribute("name");
                     var address = markers[i].getAttribute("address");
-                    var breed = markers[i].getAttribute("breed");
+                    var sex = markers[i].getAttribute("sex");
                     var point = new google.maps.LatLng(
                         parseFloat(markers[i].getAttribute("lat")),
                         parseFloat(markers[i].getAttribute("lng")));
                     var html = "<b>" + name + "</b> <br/>" + address;
-                    var icon = customIcons[breed] || {};
+                    var icon = customIcons[sex] || {};
                     var marker = new google.maps.Marker({
                         map: map,
                         position: point,
@@ -81,7 +76,7 @@
 </head>
 
 <body onload="load()">
-<div id="map" style="width: 500px; height: 300px"></div>
+<div id="map" style="width: 100%; height: 400px"></div>
 </body>
 
 </html>
