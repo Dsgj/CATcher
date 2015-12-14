@@ -40,10 +40,11 @@ while ($row = @mysql_fetch_assoc($result)){
     // ADD TO XML DOCUMENT NODE
     echo '<marker ';
     echo 'name="' . parseToXML($row['name']) . '" ';
+    echo 'sex="' . parseToXML($row['sex']) . '" ';
+    echo 'breed="' . $row['breed'] . '" ';
     echo 'address="' . parseToXML($row['address']) . '" ';
     echo 'lat="' . $row['lat'] . '" ';
     echo 'lng="' . $row['lng'] . '" ';
-    echo 'breed="' . $row['breed'] . '" ';
     echo '/>';
 }
 
