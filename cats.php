@@ -70,7 +70,6 @@ include 'header.php';
 
         function doNothing() {
         }
-        $(function() { load(); });
     </script>
     <script>
         var autocomplete;

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Leo Ozolins-Carlson & Jesper Gladh">
     <title>CATcher - Your local cat locator</title>
-    <script src="js/jquery.js"></script>
+
     <!-- Bootstrap Core CSS
     <link href="css/bootstrap.min.css" rel="stylesheet">-->
 
