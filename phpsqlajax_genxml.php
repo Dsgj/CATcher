@@ -1,13 +1,20 @@
 <?php
 require("phpsqlajax_dbinfo.php");
 
-function htmlspecialchars($htmlStr)
+function parseToXML($htmlStr)
 {
     $xmlStr=str_replace('<','&lt;',$htmlStr);
     $xmlStr=str_replace('>','&gt;',$xmlStr);
     $xmlStr=str_replace('"','&quot;',$xmlStr);
     $xmlStr=str_replace("'",'&#39;',$xmlStr);
     $xmlStr=str_replace("&",'&amp;',$xmlStr);
+    $xmlStr=str_replace("å",'&aring;',$xmlStr);
+    $xmlStr=str_replace("Å",'&Aring;',$xmlStr);
+    $xmlStr=str_replace("ä",'&auml;',$xmlStr);
+    $xmlStr=str_replace("Ä",'&Auml;',$xmlStr);
+    $xmlStr=str_replace("ö",'&ouml;',$xmlStr);
+    $xmlStr=str_replace("Ö",'&Ouml;',$xmlStr);
+
     return $xmlStr;
 }
 
@@ -39,10 +46,10 @@ echo '<cats>';
 while ($row = @mysql_fetch_assoc($result)){
     // ADD TO XML DOCUMENT NODE
     echo '<marker ';
-    echo 'name="' . htmlspecialchars($row['name']) . '" ';
-    echo 'sex="' . htmlspecialchars ($row['sex']) . '" ';
+    echo 'name="' . parseToXML($row['name']) . '" ';
+    echo 'sex="' . parseToXML($row['sex']) . '" ';
     echo 'breed="' . $row['breed'] . '" ';
-    echo 'address="' . htmlspecialchars ($row['address']) . '" ';
+    echo 'address="' . parseToXML($row['address']) . '" ';
     echo 'lat="' . $row['lat'] . '" ';
     echo 'lng="' . $row['lng'] . '" ';
     echo '/>';
