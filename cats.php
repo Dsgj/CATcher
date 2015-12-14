@@ -3,7 +3,6 @@ include 'connect.php';
 include 'header.php';
 ?>
 
-
     <script>
         var autocomplete;
         function initAutocomplete() {
@@ -24,7 +23,7 @@ include 'header.php';
         }
     </script>
     <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgqYI64QpxRrlSK0qOE2vg4lQVDawI4ZY&signed_in=true&libraries=places&callback=initAutocomplete"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXhtygUcKTapxhoirRVKtpn2qXiQBh8xM&signed_in=true&libraries=places&callback=initAutocomplete"
         async defer>
     </script>
     <!-- Page Content -->
@@ -33,13 +32,13 @@ include 'header.php';
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Contact
-                    <small>Subheading</small>
+                <h1 class="page-header">Cats
+                    <small>Register your cat</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.php">Home</a>
                     </li>
-                    <li class="active">Contact</li>
+                    <li class="active">Cats</li>
                 </ol>
             </div>
         </div>
@@ -52,7 +51,7 @@ include 'header.php';
                 <!-- Embedded Google Map -->
                 <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
 
-                        src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+                        src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=62.864643, 16.057620&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
             </div>
             <!-- Contact Form -->
             <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
