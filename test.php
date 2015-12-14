@@ -9,10 +9,10 @@
         //<![CDATA[
 
         var customIcons = {
-            restaurant: {
+            male: {
                 icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
             },
-            bar: {
+            female: {
                 icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png'
             }
         };
@@ -32,7 +32,7 @@
                 for (var i = 0; i < markers.length; i++) {
                     var name = markers[i].getAttribute("name");
                     var address = markers[i].getAttribute("address");
-                    var type = markers[i].getAttribute("type");
+                    var breed = markers[i].getAttribute("breed");
                     var point = new google.maps.LatLng(
                         parseFloat(markers[i].getAttribute("lat")),
                         parseFloat(markers[i].getAttribute("lng")));
