@@ -5,7 +5,7 @@ $password = "root";
 $dbname = "catcher";
 $conn = null;
 
-
+mysql_query("SET NAMES 'utf8'")
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
