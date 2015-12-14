@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Leo Ozolins-Carlson & Jesper Gladh">
     <title>CATcher - Your local cat locator</title>
+    <script src="js/jquery.js"></script>
     <!-- Bootstrap Core CSS
     <link href="css/bootstrap.min.css" rel="stylesheet">-->
 
@@ -37,7 +38,7 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <script src="js/jquery.js"></script>
+
 
     <![endif]-->
 
