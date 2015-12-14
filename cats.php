@@ -80,8 +80,8 @@ include 'header.php';
 
                         <div>
                             <label>Sex:</label><br>
-                            <label class="radio-inline"><input type="radio" value="female" id="sex" name="sex">Female</label>
-                            <label class="radio-inline"><input type="radio" value="male" id="sex" name="sex">Male</label>
+                            <input type="radio" name="sex" id="sex" value="female">Female</label>
+                            <input type="radio" name="sex" id="sex" value="male" >Male</label>
                         </div>
 
                         <div class="control-group form-group">
