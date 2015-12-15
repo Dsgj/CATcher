@@ -11,7 +11,7 @@
             ?> CATcher Inc.
             <a href="http://www.piedpiper.com/"><i class="fa fa-pied-piper-alt fa-2x" style="color: black"></i>
 
-                <a href="https://github.com/Dsgj/CATcher"><i class="fa fa-github fa-2x" style="color: black"></i>     
+                <a href="https://github.com/Dsgj/CATcher"><i class="fa fa-github fa-2x" style="color: black"></i>
 
                     <a href="https://open.spotify.com/track/1lCRw5FEZ1gPDNPzy1K4zW"><i class="fa fa-spotify fa-2x" style="color: lightgreen"></i></a>
         </div>

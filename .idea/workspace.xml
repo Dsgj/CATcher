@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fe7964d-81fb-43ef-8572-3d937d94c1a6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-home-1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-home-2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-post.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/facebook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/full-width.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/natt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio-1-col.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio-2-col.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio-3-col.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio-4-col.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio-item.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pricing.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test1.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cats.php" afterPath="$PROJECT_DIR$/catReg.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.php" afterPath="$PROJECT_DIR$/404.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CatMap.php" afterPath="$PROJECT_DIR$/CatMap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.php" afterPath="$PROJECT_DIR$/about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
-    </list>
+    <list default="true" id="2fe7964d-81fb-43ef-8572-3d937d94c1a6" name="Default" comment="" />
     <ignored path="CATcher.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -69,16 +44,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.384615">
-              <caret line="92" column="83" selection-start-line="92" selection-start-column="83" selection-end-line="92" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="404.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/404.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,14 +66,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25028312">
-              <caret line="13" column="118" selection-start-line="13" selection-start-column="118" selection-end-line="13" selection-end-column="118" />
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="13" column="113" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#0;n#a#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#0;n#a#0;n#a#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CatMap.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CatMap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6534541">
+              <caret line="111" column="37" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
+              <folding>
+                <element signature="e#4256#4288#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -696,17 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CatMap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.653847">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding>
-            <element signature="e#2761#3635#0#HTML" expanded="false" />
-            <element signature="e#4256#4288#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catreg.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.9636364">
@@ -820,11 +786,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25028312">
-          <caret line="13" column="118" selection-start-line="13" selection-start-column="118" selection-end-line="13" selection-end-column="118" />
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="113" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
           <folding>
             <element signature="n#style#0;n#i#0;n#a#0;n#a#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#0;n#a#0;n#a#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CatMap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6534541">
+          <caret line="111" column="37" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
+          <folding>
+            <element signature="e#4256#4288#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
