@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe7964d-81fb-43ef-8572-3d937d94c1a6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CatMap.php" afterPath="$PROJECT_DIR$/CatMap.php" />
     </list>
     <ignored path="CATcher.iws" />
@@ -46,16 +47,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/404.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.23077">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,13 +72,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CatMap.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CatMap.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CatMap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07701019">
-              <caret line="4" column="132" selection-start-line="4" selection-start-column="132" selection-end-line="4" selection-end-column="132" />
+            <state vertical-scroll-proportion="-18.307692">
+              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding>
-                <element signature="e#4230#4262#0#HTML" expanded="true" />
+                <element signature="e#257#2756#0#HTML" expanded="false" />
+                <element signature="e#4256#4288#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,6 +91,20 @@
             <state vertical-scroll-proportion="-7.1923075">
               <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catreg.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catreg.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.7621744">
+              <caret line="191" column="16" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="16" />
+              <folding>
+                <element signature="e#261#2762#0#HTML" expanded="false" />
+                <element signature="e#2767#3641#0#HTML" expanded="false" />
+                <element signature="e#4223#4257#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -675,30 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catreg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9636364">
-          <caret line="103" column="51" selection-start-line="103" selection-start-column="51" selection-end-line="103" selection-end-column="51" />
-          <folding>
-            <element signature="e#2767#3641#0#HTML" expanded="false" />
-            <element signature="e#4223#4257#0#HTML" expanded="true" />
-            <marker date="1450137730187" expanded="true" signature="4519:5541" placeholder="..." />
-            <marker date="1450137730187" expanded="true" signature="4558:5541" placeholder="..." />
-            <marker date="1450137730187" expanded="true" signature="4707:5541" placeholder="..." />
-            <marker date="1450137730187" expanded="true" signature="4771:5164" placeholder="..." />
-            <marker date="1450137730187" expanded="true" signature="4822:5133" placeholder="..." />
-            <marker date="1450137730187" expanded="true" signature="4991:5098" placeholder="..." />
-            <marker date="1450137730187" expanded="true" signature="5228:5541" placeholder="..." />
-            <marker date="1450137730187" expanded="true" signature="5279:5541" placeholder="..." />
-            <marker date="1450137730187" expanded="true" signature="5447:5541" placeholder="..." />
-            <marker date="1450137730187" expanded="true" signature="6261:6540" placeholder="..." />
-            <marker date="1450137730187" expanded="true" signature="6604:6909" placeholder="..." />
-            <marker date="1450137730187" expanded="true" signature="6655:6909" placeholder="..." />
-            <marker date="1450137730187" expanded="true" signature="6815:6909" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.346154">
@@ -799,10 +781,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CatMap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07701019">
-          <caret line="4" column="132" selection-start-line="4" selection-start-column="132" selection-end-line="4" selection-end-column="132" />
+        <state vertical-scroll-proportion="-18.307692">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
-            <element signature="e#4230#4262#0#HTML" expanded="true" />
+            <element signature="e#257#2756#0#HTML" expanded="false" />
+            <element signature="e#4256#4288#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catreg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7621744">
+          <caret line="191" column="16" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="16" />
+          <folding>
+            <element signature="e#261#2762#0#HTML" expanded="false" />
+            <element signature="e#2767#3641#0#HTML" expanded="false" />
+            <element signature="e#4223#4257#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
