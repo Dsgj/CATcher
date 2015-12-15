@@ -33,7 +33,7 @@ include 'header.php';
                             <a href="index.php">Home</a>
                         </li>
                         <li>
-                            <a href="cats.php">Cats</a>
+                            <a href="catreg.php">Cats</a>
                         </li>
                         <li>
                             <a href="about.php">About</a>

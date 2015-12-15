@@ -2,12 +2,20 @@
 <footer>
     <div class="row">
         <div class="col-lg-12">
+            Powered by <span title="HTML5"><i class="fa fa-html5 fa-2x"></i></span>
+            <span title="CSS3"></span><i class="fa fa-css3 fa-2x"></i></span>
             <i class="fa fa-copyright fa-lg"></i> <?php
             $copyYear = 2015; // Set your website start date
             $curYear = date('Y'); // Keeps the second year updated
             echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
-            ?> CATcher Inc. <i class="fa fa-pied-piper-alt fa-2x"></i>
+            ?> CATcher Inc.
+            <a href="http://www.piedpiper.com/"><i class="fa fa-pied-piper-alt fa-2x" style="color: black"></i>
+
+                <a href="https://github.com/Dsgj/CATcher"><i class="fa fa-github fa-2x" style="color: black"></i>     
+
+                    <a href="https://open.spotify.com/track/1lCRw5FEZ1gPDNPzy1K4zW"><i class="fa fa-spotify fa-2x" style="color: lightgreen"></i></a>
         </div>
+
     </div>
 </footer>
 </div>

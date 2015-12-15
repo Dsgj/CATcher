@@ -131,7 +131,7 @@
                 <ul class="nav navbar-nav navbar-right">
 
                     <li>
-                        <a href="cats.php">
+                        <a href="catreg.php">
                         <span title="Cats">
                            <i class="fa fa-2x fa-paw"></i>
                         </span>

@@ -45,13 +45,12 @@ include 'header.php';
                     <h3>Jesper Gladh<br>
                         <small>Developer</small>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt
-                        maxime.</p>
+                    <p>22 years old from Norrtälje. 4th year computer science student.</p>
                     <ul class="list-inline">
-                        <li><a href="https://www.facebook.com/jesper.gladh"><i
+                        <li><a href="https://www.facebook.com/hltld"><i
                                     class="fa fa-2x fa-facebook-square"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                        <li><i class="fa fa-2x fa-linkedin-square"></i>
                         </li>
                         <li><a href="https://www.instagram.com/jegladh/"><i class="fa fa-2x fa-instagram"></i></a>
                         </li>
@@ -67,8 +66,7 @@ include 'header.php';
                     <h3>Leo Ozolins-Carlson<br>
                         <small>Developer</small>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt
-                        maxime.</p>
+                    <p>25 years old from Höganäs. 4th year computer science student.</p>
                     <ul class="list-inline">
                         <li><a href="https://www.facebook.com/ozolinscarlson"><i
                                     class="fa fa-2x fa-facebook-square"></i></a>
@@ -92,16 +90,15 @@ include 'header.php';
                     <h3>Ace Ventura, Sr.<br>
                         <small>Pet Detective</small>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt
-                        maxime.</p>
+                    <p>Friend of all animals (except bats). Used as a muse and for inspiration.</p>
                     <ul class="list-inline">
-                        <li><a href="#"><i
+                        <li><a href="https://www.facebook.com/AceVenturaOfficial"><i
                                     class="fa fa-2x fa-facebook-square"></i></a>
                         </li>
-                        <li><a href="#"><i
-                                    class="fa fa-2x fa-linkedin-square"></i></a>
+                        <li><i
+                                    class="fa fa-2x fa-linkedin-square"></i>
                         </li>
-                        <li><a href="#"><i class="fa fa-2x fa-instagram"></i></a>
+                        <li><i class="fa fa-2x fa-instagram"></i>
                         </li>
                     </ul>
                 </div>

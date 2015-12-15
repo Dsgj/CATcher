@@ -21,7 +21,7 @@ include 'header.php';
 
         // Try HTML5 geolocation.
         if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(function(position) {
+            navigator.geolocation.getCurrentPosition(function (position) {
                 var pos = {
                     lat: position.coords.latitude,
                     lng: position.coords.longitude
@@ -29,7 +29,7 @@ include 'header.php';
 
                 marker.setPosition(pos);
                 map.setCenter(pos);
-            }, function() {
+            }, function () {
                 handleLocationError(true, infoWindow, map.getCenter());
             });
         } else {
@@ -45,101 +45,97 @@ include 'header.php';
             'Error: Your browser doesn\'t support geolocation.');
     }
 </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXhtygUcKTapxhoirRVKtpn2qXiQBh8xM&signed_in=true&libraries=places&callback=initAutocomplete"
-            async defer>
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXhtygUcKTapxhoirRVKtpn2qXiQBh8xM&signed_in=true&libraries=places&callback=initMap"
-        async defer>
-    </script>
-    <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXhtygUcKTapxhoirRVKtpn2qXiQBh8xM&signed_in=true&libraries=places&callback=initMap"
+    async defer>
+</script>
+<!-- Header Carousel -->
+<header id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill map" id="map-canvas-0"></div>
-                <div class="carousel-caption">
-                    <h2>You are here!</h2>
-                </div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="fill map" id="map-canvas-0"></div>
+            <div class="carousel-caption">
+                <h2>You are here!</h2>
             </div>
-            <div class="item">
-                <div class="fill"
-                     style="background-image:url('http://gallery.hd.org/_exhibits/natural-science/_more2002/_more09/cat-striped-domestic-shorthair-cut-ear-mono-5-BG.jpg');"></div>
-                <div class="carousel-caption">
-                    <h2>CATcher</h2>
-                </div>
+        </div>
+        <div class="item">
+            <div class="fill"
+                 style="background-image:url('http://eryq.org/content/page/Mothers-Day-2015/ingredients/cat-face.jpg');"></div>
+            <div class="carousel-caption">
             </div>
-            <div class="item">
-                <div class="fill"
-                     style="background-image:url('http://www.vetprofessionals.com/catprofessional/images/home-cat.jpg');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+        </div>
+        <div class="item">
+            <div class="fill"
+                 style="background-image:url('https://scontent-arn2-1.xx.fbcdn.net/hphotos-xtf1/t31.0-8/10911307_10155079615415521_4948087293167966320_o.jpg');"></div>
+            <div class="carousel-caption">
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</header>
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Marketing Icons Section -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Welcome to CATcher
+            </h1>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><i class="fa fa-fw fa-paw"></i> Cats</h4>
+                </div>
+                <div class="panel-body">
+                    <p>Look where all registered cats live</p>
+                    <a href="CatMap.php" class="btn btn-default">Check the map</a>
                 </div>
             </div>
         </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Marketing Icons Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">
-                    Welcome to CATcher
-                </h1>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-paw"></i> Register a cat</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Register your cat with some easy steps!</p>
-                        <a href="cats.php" class="btn btn-default">Go to page</a>
-                    </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><i class="fa fa-fw fa-pencil"></i> Register a cat</h4>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i> Future feature</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Text</p>
-                        <a href="#" class="btn btn-default">Future feature</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Future feature</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Text</p>
-                        <a href="#" class="btn btn-default">Future feature</a>
-                    </div>
+                <div class="panel-body">
+                    <p>Register your cat with some easy steps!</p>
+                    <a href="catreg.php" class="btn btn-default">Do it now</a>
                 </div>
             </div>
         </div>
-        <!-- /.row -->
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><i class="fa fa-fw fa-info"></i> About CATcher</h4>
+                </div>
+                <div class="panel-body">
+                    <p>Some information about the website and its team</p>
+                    <a href="about.php" class="btn btn-default">Look here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
 
-        <hr>
-<?php
-include 'footer.php';
-?>
+    <hr>
+    <?php
+    include 'footer.php';
+    ?>

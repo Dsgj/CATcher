@@ -70,9 +70,17 @@
             <ul class="nav navbar-nav navbar-right">
 
                 <li>
-                    <a href="cats.php">
+                    <a href="CatMap.php">
                         <span title="Cats">
                            <i class="fa fa-2x fa-paw"></i>
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="catreg.php">
+                        <span title="Register">
+                           <i class="fa fa-2x fa-pencil"></i>
                         </span>
                     </a>
                 </li>
@@ -88,7 +96,7 @@
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown">
                         <span title="Blog">
-                           <i class="fa fa-2x fa-pencil"></i>
+                           <i class="fa fa-2x fa-circle-o-notch fa-spin"></i>
                         </span>
                         <b class="caret"></b>
                     </a>
