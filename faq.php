@@ -27,18 +27,13 @@ include 'header.php';
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                                   href="#collapseOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a>
+                                   href="#collapseOne">What is CATcher?</a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
-                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
-                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
-                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                CATcher is a service where cat owners can register their cat to let people in the surrounding area know where a certain cat lives.
+                                It can also supply more general information about the cat; If it is a friendly cat who likes to advance humans, of if it is a bit reserved and should be left alone.
                             </div>
                         </div>
                     </div>
@@ -47,19 +42,12 @@ include 'header.php';
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                                   href="#collapseTwo">Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae
-                                    velit congue iaculis vitae at risus?</a>
+                                   href="#collapseTwo">Why CATcher?</a>
                             </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
-                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
-                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
-                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                Why not? No but this website is created by two students in the course Dynamic Web Systems. We like cats and saw this as a bit of a challenge, and hopefully we will conquer this!
                             </div>
                         </div>
                     </div>
