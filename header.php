@@ -102,7 +102,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <div class="fb-login-button" data-scope="public_profile,email" data-max-rows="0" data-size="medium" data-show-faces="false"
+                            <div class="fb-login-button" onlogin="checkLoginState()" data-scope="public_profile,email" data-max-rows="0" data-size="medium" data-show-faces="false"
                                  data-auto-logout-link="true">
 
                             </div>
