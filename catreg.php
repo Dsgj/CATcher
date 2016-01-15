@@ -122,7 +122,7 @@ include 'header.php';
                         <div class="control-group form-group">
                             <div class="controls">
                                 <label>Email Address:</label>
-                                <input type="email" class="form-control" id="email" name="email" required
+                                <input type="email" value="<?=$_SESSION["email"];?>" class="form-control" id="email" name="email" required
                                        data-validation-required-message="Please enter your email address.">
                             </div>
                         </div>

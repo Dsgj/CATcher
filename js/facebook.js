@@ -60,5 +60,11 @@ function testAPI() {
         console.log('Your email address is: ' + response.email);
         document.getElementById('status').innerHTML =
             'Thanks for logging in, ' + response.name + '!';
+        $.post("/login.php",{
+            data: {
+                "email": response.email
+            }
+        });
+        setCookie("email",response.email,30);
     });
 }
